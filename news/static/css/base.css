@@ -1,0 +1,27 @@
+.feature {
+    margin: 35px 0;
+}
+
+a.icon-link {
+    text-decoration: none;
+    display: inline-block;
+    background: #0d6efd;
+    border: 1px solid #0d6efd;
+    color: #fff;
+    padding: 10px 15px; 
+}
+
+a.icon-link:hover {
+    background: #fff;
+    border: 1px solid #0d6efd;
+    color: #0d6efd;
+}
+
+.tags,
+.tags li {
+    display: inline-block;
+}
+
+.tags {
+    padding-inline-start: 15px;
+}

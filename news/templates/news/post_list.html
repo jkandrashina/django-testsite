@@ -1,0 +1,13 @@
+{% extends 'news/base.html' %}
+
+{% block content %}
+	{% for post in posts %}
+	<div class="feature col-lg-4 col-md-6 col-sm-12">
+		<h2>{{ post.title }}</h2>
+		<p>{{ post.created_date }}</p>
+		<a href="{% url 'post_detail' pk=post.pk %}" class="icon-link">
+			Перейти
+		</a>
+	</div>
+	{% endfor %}
+{% endblock %}
